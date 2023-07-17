@@ -1,0 +1,233 @@
+/* font-family: 'Lato', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+color: var(--gray-900, #1E212C);
+font-family: Lato;
+font-size: 46px;
+font-style: normal;
+font-weight: 900;
+line-height: 130%;
+
+}
+h3{
+color: var(--gray-700, #787A80);
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
+button{
+border-radius: 4px;
+background: var(--primary, #7772F1);
+padding: 10px   40px;
+color:white;
+text-align: center;
+background-color: var(--primary, #7772F1);
+border-width: 2px;
+border-color: var(--primary, #7772F1);   
+}
+
+
+
+
+
+
+/***************************HEADER****************************/
+.container{
+    padding: 0  345px;
+    font-family: 'Lato', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+}
+.header {
+    background-image: url(index_img/background.jpg);
+    background-size: cover;
+    height: 1080px;
+    position: relative;
+}
+.nav_line {
+    display: flex;
+    padding-top: 33px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_image {
+    padding-right: 60px;
+}
+.header_text_and_butt{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_logo {
+}
+.nav_text {
+    display: flex;
+    gap: 40px;
+     color: var(--white, #FFF);
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; 
+opacity: 0.6000000238418579;
+}
+.nav {
+    color: var(--white, #FFF);
+}
+.nav_button {
+    border-radius: 4px;
+background: var(--primary, #7772F1);
+padding: 10px   40px;
+color:white;
+    text-align: center;
+    background-color: var(--primary, #7772F1);
+    border-width: 2px;
+    border-color: var(--primary, #7772F1);
+}
+.text_and_butt_header{
+   display: flex;
+    justify-content: right;  
+}
+.header_title {
+    margin-top: 200px;
+    color: white;
+font-family: Lato;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 130%;
+letter-spacing: 1px;
+width: 810px;
+}
+.header_title span{
+    color:#7772F1;
+}
+.header_buttons {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.GAFA {
+    border-radius: 4px;
+border: 1px solid var(--white, #FFF);
+background-color: transparent;               /*прозрачность кнопки */
+padding: 10px   40px;
+color: #FFF;
+}
+.play_vid {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+}
+.play_video_img {
+}
+.play_video_txt {
+}
+.header_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 400px;
+}
+.header_card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header_card_img {
+}
+.header_card_text {
+    color: #FFF;
+}
+.header_title_and_illustr{
+    display: flex;
+}
+.header_illustr_img{
+    position: absolute;
+    width: 590px;
+height: 526px;
+flex-shrink: 0;
+margin-top: 238px ;
+z-index: 9;
+}
+
+
+
+/********************CREATEX AGENCY****************************/
+.Createx_agency {
+    padding-bottom: 130px;
+}
+.creat_ag_content {
+    margin-top: 131px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c_a_text_zone {
+}
+.c_a_title {
+margin-bottom: 40px;
+}
+.c_a_text {
+    width: 390px;
+margin-bottom: 48px;
+}
+.c_a_figures{
+    margin-top: 180px;
+    text-align: center;
+}
+/**************************OUR_SERVICES************************/
+.Our_Services {
+padding-bottom: 180px;
+}
+.Our_Services_title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Our_Services_nav_line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.Our_Services_nav {
+}
+.Our_Services_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Our_Services_text_zone {
+}
+.Our_Services_text_zone_title {
+    width: 390px;
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+.Our_Services_text_zone_text_ALL{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.Our_Services_text_zone_text {
+}
+.Our_Services_text_zone_text_mark {
+}
+.Our_Services_text_zone_text_h3 {
+}
+.Our_Services_text_zone_buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.Our_Services_text_zone_button1 {
+}
+.Our_Services_text_zone_button2 {
+}
+    
