@@ -222,7 +222,7 @@ padding-bottom: 180px;
 .Get_a_free_seo_analysis {
     background-color:#1E212C;
     background-size: cover;
-    padding-top: 80px;
+    padding: 80px   0;
 }
 .Get_a_free_seo_analysis_ALL {
     display: flex;
@@ -296,3 +296,41 @@ color:white;
     border-width: 2px;
     border-color: var(--primary, #7772F1);
 }
+/*****************************Freequently_Ask_Questions******************/
+.Freequently_Ask_Questions {
+    padding-top: 180px;
+    padding-bottom: 120px;
+}
+.Freequently_Ask_Questions_all_sides {
+    display: flex;
+    justify-content: space-between;
+}
+.Freequently_Ask_Questions_left_side {
+}
+.Freequently_Ask_Questions_title {
+    padding-bottom: 60px;
+}
+.Freequently_Ask_Questions_all_text {
+}
+.Freequently_Ask_Questions_text_all_punkt{
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+.Freequently_Ask_Questions_punkt {
+    font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+padding-bottom: 24px;
+}
+.Freequently_Ask_Questions_button {
+    margin-top: 36px;
+}
+.Freequently_Ask_Questions_butt {
+}
+.Freequently_Ask_Questions_right_side {
+}
+.Freequently_Ask_Questions_img {
+}
+/****************************Our_benefits***********************************/
