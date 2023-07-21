@@ -333,22 +333,269 @@ padding-bottom: 24px;
 }
 .Freequently_Ask_Questions_img {
 }
+/***************************Read_our_clients********************************/
+.Read_our_clients_case_studies {
+    padding-top: 80px;
+    padding-bottom: 85px;
+    background: var(--gray-200, #F4F5F6);
+}
+.Read_our_clients_case_studies1st_line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.Read_our_clients_case_studies_title {
+}
+.slider_controls {
+}
+.left_arrow {
+}
+.left_arrow_img {
+}
+.right_arrow {
+}
+.right_arrow_img {
+}
+.Read_our_clients_case_studies_cards {
+    display: flex;
+    justify-content: space-between;
+}
+.Read_our_clients_case_studies_card {
+    width: 390px;
+height: 390px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid var(--gray-300, #E5E8ED);
+background: var(--white, #FFF);
+box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+}
+.Read_our_clients_case_studies_card_logo {
+    padding-top: 24px;
+    padding-left: 31px;
+    padding-bottom: 8px;
+}
+.Read_our_clients_case_studies_card_logo_img {
+}
+.Read_our_clients_case_studies_card_title {
+    padding-left: 31px;
+    padding-bottom: 20px;
+}
+.polosa {
+   
+}
+.Read_our_clients_case_studies_card_text {
+    padding-top: 20px;
+    padding-left: 31px;
+    width: 310px;
+height: 75px;
+}
+.Read_our_clients_case_studies_card_graphics {
+    padding-left: 31px;
+    padding-top: 78px;
+}
+.Read_our_clients_case_studies_card_gr_img {
+}
+.Read_our_clients_case_studies_explore {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+.Read_our_clients_case_studies_exp_text {
+    color: var(--gray-900, #1E212C);
+font-family: Lato;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+
+}
+.Read_our_clients_case_studies_exp_btn {
+
+}
+.b{
+    filter: brightness(0%);
+}
+
 /****************************Our_benefits***********************************/
+.Our_benefits {
+    padding-bottom: 100px;
+}
+.Our_benefits_title {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+.Our_benefits_content {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.Our_benefits_left_side {
+}
+.Our_benefits_cards {
+}
+.Our_benefits_card {
+    border-radius: 4px;
+border: 1px solid var(--gray-300, #E5E8ED);
+background: var(--white, #FFF);
+padding: 40px   48px;
+    margin-bottom: 24px;
+}
+.Our_benefits_card_image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+}
+.Our_benefits_card_img {
+}
+.Our_benefits_card_title {
+    color: var(--gray-900, #1E212C);
+text-align: center;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+padding-bottom: 8px;
+}
+.Our_benefits_card_text {
+    color: var(--gray-700, #787A80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    width: 294px;
+height: 63px;
+}
 .Our_benefits_center {
 }
 .Our_benefits_ilustration {
 }
 .Our_benefits_right_side {
 }
-.Our_benefits_cards {
+/*************************************price********************************/
+.price {
+    margin-top: 80px;
+    text-align: center;
+    padding-bottom: 100px;
 }
-.Our_benefits_card {
+.price_title {
+    margin-bottom: 60px;
 }
-.Our_benefits_card_image {
+.price_switch {
 }
-.Our_benefits_card_img {
+.price_monthly_cards {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
 }
-.Our_benefits_card_title {
+.price_montly_card {
+    width: 390px;
+height: 536px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid rgba(119, 114, 241, 0.40);
+background: var(--white, #FFF);
+box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
 }
-.Our_benefits_card_text {
+.price_montly_card_title {
+    padding-top: 40px;
+    padding-bottom: 8px;
+    color: var(--gray-900, #1E212C);
+text-align: center;
+font-family: Lato;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+}
+.price_montly_card_price {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.price_motly_card_dollars {
+    color: var(--primary, #7772F1);
+text-align: center;
+font-family: Lato;
+font-size: 46px;
+font-style: normal;
+font-weight: 900;
+line-height: 130%; /* 59.8px */
+}
+.price_montly_card_mon {
+    color: var(--primary, #7772F1);
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 30px */
+}
+.polosa{
+    margin-bottom: 24px;
+    height: 1px;
+    background: linear-gradient(315deg, rgba(218, 219, 221, 0.00) 0%, rgba(218, 219, 221, 0.50) 12.33%, #DADBDD 51.91%, rgba(218, 219, 221, 0.50) 87.85%, rgba(218, 219, 221, 0.00) 100%);
+}
+.price_montly_card_all_text {
+   display: block;
+   padding: 0   98px;
+}
+.price_montly_card_mark_and_text{
+    display: flex;
+    gap: 8px;
+    justify-content: left;
+    padding-bottom: 8px;
+    align-items: center;
+}
+.price_montly_card_mark {
+}
+.price_montly_card_mark_img {
+}
+.price_montly_card_text {
+}
+.price_montly_card_button {
+    margin-top: 24px;
+}
+.g{
+    color:#9A9CA5;
+}
+/*******************************what_our_clients_say************************/
+.what_our_clients_say {
+}
+.what_our_clients_say_title {
+    text-align: center;
+}
+.what_our_clients_say_slider {
+    display: flex;
+    width: 1020px;
+    position: relative;
+    overflow: hidden;
+    left: 0;
+}
+.what_our_clients_say_slider_card {
+    padding: 64px   105px;
+    border-radius: 4px;
+background: var(--white, #FFF);
+box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+position: relative;
+left: 38px;
+}
+.what_our_clients_say_slider_text {
+    text-align: center;
+    width: 752px;
+}
+.what_our_clients_say_slider_image {
+}
+.what_our_clients_say_slider_img {
+}
+.all_what_our_clients_say_slider_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
