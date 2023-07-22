@@ -355,6 +355,7 @@ padding-bottom: 24px;
 .right_arrow {
 }
 .right_arrow_img {
+    transform: rotate(180deg);
 }
 .Read_our_clients_case_studies_cards {
     display: flex;
